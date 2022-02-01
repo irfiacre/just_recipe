@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, TextInput, FlatList } from "react-native";
 import Display from "../components/Header";
 import ResultCard from "../components/cards/ResultCard";
 import apiService from "../config/apiService";
-import { API_KEY } from "../config/credentials";
 import ImageCard from "../components/cards/ImageCard";
 
 const HomeScreen = () => {

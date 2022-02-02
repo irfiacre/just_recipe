@@ -1,22 +1,13 @@
 import React from "react";
-import { StyleSheet, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-import HomeScreen from "./screens/Home";
+import { NavigationContainer } from "@react-navigation/native";
+import StackNavigation from "./routes";
 
 const App = () => {
   return (
-    <View style={styles.root}>
-      <SafeAreaView />
-      <HomeScreen />
-    </View>
+    <NavigationContainer>
+      <StackNavigation />
+    </NavigationContainer>
   );
 };
 
-const styles = StyleSheet.create({
-  root: {
-    flex: 1,
-    backgroundColor: "#F6F9FE",
-    padding: 20,
-  },
-});
 export default App;

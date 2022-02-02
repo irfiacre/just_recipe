@@ -6,7 +6,7 @@ import ResultCard from "../components/cards/ResultCard";
 import apiService from "../config/apiService";
 import ImageCard from "../components/cards/ImageCard";
 
-const HomeScreen = () => {
+const CategoryScreen = () => {
   const [state, setState] = useState({
     searchText: "",
     searchResult: [],
@@ -132,4 +132,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomeScreen;
+export default CategoryScreen;

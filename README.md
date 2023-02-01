@@ -3,4 +3,5 @@ This is a mobile application based on the [TheMealDB API](https://www.themealdb.
 
 
 ### Sample Project Image
-<img width="1439" alt="image" src="https://user-images.githubusercontent.com/52471122/216145391-0327f5d0-b80a-46c9-83f2-fd764f8aadda.png">
+
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/52471122/216151712-58df2dbf-1444-49d9-87a8-1b7f3d85a7f8.png">
